@@ -1,11 +1,9 @@
 name: Bug Report
 description: File a bug report.
 title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+labels: ["bug", "not a bug", "high priority", "low priority", "backlog", "in progress", "completed"]
 assignees:
-  - octocat
-type: bug
+  - McGRiMTV
 body:
   - type: markdown
     attributes:
@@ -52,10 +50,10 @@ body:
       options:
         - label: I agree.
           required: true
-  - type: upload
+  - type: textarea
     id: screenshots
     attributes:
       label: Upload screenshots
-      description: If applicable, add screenshots to help explain your problem.
+      description: If applicable, drag and drop or paste screenshots here to help explain your problem.
     validations:
       required: false
