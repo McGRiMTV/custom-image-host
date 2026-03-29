@@ -32,14 +32,14 @@
 * **Storage:** Cloudflare R2
 * **Domain:** Your custom domain `e.g., image.website.com` (Routed through Cloudflare)
 
-### 1. Cloudflare R2 Setup
+#### 1. Cloudflare R2 Setup
 1. Create a new bucket in Cloudflare R2. **Dashboard > Storage & databases > R2 Object Storage > Create bucket**
 2. Under the bucket's **Settings > Custom Domains**, connect your custom domain.
 3. On your *R2 Object Storage* page, note your `Account ID`
 4. Remaining on the page from step 3, generate a User API Token with **Object Read & Write** permissions. Select *Apply to specific buckets only*. **Create User API Token** 
 5. Save the `Access Key ID` and `Secret Access Key`.
 
-### 2. Railway Deployment
+#### 2. Railway Deployment
 1. Fork or clone this repository and deploy it via the [Railway dashboard](https://railway.com/dashboard).
 2. In your Railway Project Settings, navigate to the **Variables** tab.
 3. Add the following environment variables:
@@ -55,7 +55,7 @@
 
 *Note: Railway will automatically install the necessary NPM dependencies during the build phase.*
 
-### 3. ShareX Configuration
+#### 3. ShareX Configuration
 Import the following JSON into your ShareX Custom Uploader Settings. Ensure you replace `YOUR_SECRET_KEY_HERE` with your actual environment variable, and update the `RequestURL` to match your active Railway deployment URL (**Project > Settings > Networking > Public > Generate Domain**).
 
 ```json
@@ -87,13 +87,10 @@ This project is licensed under the MIT License. This is a permissive license wit
 
 The license is viewable [here](LICENSE).
 
-## Terms of Use
-The Terms of Use are viewable at the Atlas Development website - https://madebyatlas.dev/terms
-
 ## Authors
 **McGRiM** | [Website](https://mcgrim.dev) | [GitHub](https://github.com/McGRiMTV)
 
-**Atlas Development** | [Website](https://madebyatlas.dev) | [GitHub](https://github.com/madebyatlas) | [Discord](https://discord.gg/atlasdev)
+**Atlas Development** | [Website](https://madebyatlas.dev) | [GitHub](https://github.com/madebyatlas) | [Discord](https://discord.gg/atlasdev) | [Terms of Use](https://madebyatlas.dev/terms) | [Privacy Policy](https://madebyatlas.dev/privacy)
 
 Copyright (c) 2026, 
 McGRiM / Atlas Development
