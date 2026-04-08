@@ -3,7 +3,7 @@
 <br>
 <p align="center">
   <a href="https://www.javascript.com/">
-    <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" alt="Made with JavaScript">
+    <img src="https://img.shields.io/badge/Made%20with-JavaScript-yellow?style=for-the-badge&logo=javascript" alt="Made with JavaScript">
   </a>
   <br>
   <br>
@@ -12,9 +12,9 @@
   <img src="https://img.shields.io/badge/storage-Cloudflare%20R2-F38020?logo=cloudflare&logoColor=white&style=flat" alt="Cloudflare R2">
   <br>
   <br>
-  <img src="https://img.shields.io/badge/express-v4.18.2-000000?logo=express&logoColor=white&style=flat" alt="express v4.18.2">
-  <img src="https://img.shields.io/badge/multer-v1.4.5--lts.1-CB3837?logo=npm&logoColor=white&style=flat" alt="multer v1.4.5-lts.1">
-  <img src="https://img.shields.io/badge/@aws--sdk%2Fclient--s3-v3.535.0-569A31?logo=amazons3&logoColor=white&style=flat" alt="@aws-sdk/client-s3 v3.535.0">
+  <img src="https://img.shields.io/badge/express-v5.2.1-000000?logo=express&logoColor=white&style=flat" alt="express v5.2.1">
+  <img src="https://img.shields.io/badge/multer-v2.1.1-CB3837?logo=npm&logoColor=white&style=flat" alt="multer v2.1.1">
+  <img src="https://img.shields.io/badge/@aws--sdk%2Fclient--s3-v3.1026.0-569A31?logo=amazons3&logoColor=white&style=flat" alt="@aws-sdk/client-s3 v3.1026.0">
   <br>
   <br>
   <a href="https://opensource.org/licenses/MIT">
@@ -27,7 +27,7 @@
 ## Getting Started
 
 ### Architecture
-* **Frontend/Client:** ShareX v18.0.1 (Windows)
+* **Frontend/Client:** ShareX v19.0.2 (Windows)
 * **Backend API:** Node.js / Express (Hosted on Railway)
 * **Storage:** Cloudflare R2
 * **Domain:** Your custom domain `e.g., image.website.com` (Routed through Cloudflare)
@@ -60,7 +60,7 @@ Import the following JSON into your ShareX Custom Uploader Settings. Ensure you 
 
 ```json
 {
-  "Version": "18.0.1",
+  "Version": "19.0.2",
   "Name": "McGRiM.dev ShareX Uploader",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
   "RequestMethod": "POST",
@@ -88,9 +88,9 @@ This project is licensed under the MIT License. This is a permissive license wit
 The license is viewable [here](LICENSE).
 
 ## Authors
-**McGRiM** | [Website](https://mcgrim.dev) | [GitHub](https://github.com/McGRiMTV)
+**McGRiM** • [Website](https://mcgrim.dev) | [GitHub](https://github.com/McGRiMTV)
 
-**Atlas Development** | [Website](https://madebyatlas.dev) | [GitHub](https://github.com/madebyatlas) | [Discord](https://discord.gg/atlasdev) | [Terms of Use](https://madebyatlas.dev/terms) | [Privacy Policy](https://madebyatlas.dev/privacy)
+**Atlas Development** • [Website](https://madebyatlas.dev) | [GitHub](https://github.com/madebyatlas) | [Discord](https://discord.gg/atlasdev) | [Terms of Use](https://madebyatlas.dev/terms) | [Privacy Policy](https://madebyatlas.dev/privacy)
 
 Copyright (c) 2026, 
 McGRiM / Atlas Development
